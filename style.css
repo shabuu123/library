@@ -1,0 +1,156 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    box-shadow: 5px 5px 5px 2px black;    
+}
+ 
+
+.login-btn {
+    height: 40px;
+    width: 4%;
+    margin-top: 1%;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.Add-btn {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+#addBtn {
+    font-weight: bold;
+    padding: 1%;
+    font-size: large;
+}
+
+p {
+    /* position: absolute; */
+    margin-top: 34%;
+    margin-left: 40%;
+    font-size: large;
+}
+
+.form {
+    margin: auto;
+    background-color:rgb(235, 227, 247);
+    width: 350px;
+    height: 350px;
+    padding: 1%;
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    border: 2px solid black;
+}
+
+.sub-btn {
+    background-color: rgb(72, 253, 72);
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    align-items: center;
+    position: absolute;
+    /* flex-wrap: wrap; */
+}
+
+
+
+#cards {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 5px 5px 8px;
+    /* align-items: center; */
+    margin-bottom: 30%;
+    border: 2px solid black;
+}
+
+#title {
+    padding: 2%;
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#author {
+    padding: 2%;
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: bold;
+
+
+}
+
+#pages {
+    padding: 2%;
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: bold;
+
+
+}
+
+.label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#fname {
+    width: 7%;
+    height: 20px;
+}
+
+.bookTitle {
+    margin-top: 8%;
+    font-weight: bold;
+}
+.bookAuthor{
+    margin-top: 10%;
+    font-weight: bold;
+}
+.bookPages{
+    margin-top: 15%;
+    font-weight: bold;
+}
+.readBtn{
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(130, 244, 130);
+    font-weight: bold;
+    font-size: large;
+}
+.removeBtn{
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(220, 209, 209);
+ 
+
+}
